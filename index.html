@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ofertas Selecionadas | Tecnologia, Beleza e Bem-Estar</title>
+  <meta name="description" content="Compre Mini Projetor, Mini Calibrador, Massageador, Modelador de Cachos e Depilador Elétrico com checkout seguro, entrega para todo o Brasil e garantia informada no checkout.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#f6f6f3">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="SELECT STORE">
+  <meta property="og:title" content="SELECT STORE | Produtos para uma rotina mais prática">
+  <meta property="og:description" content="Tecnologia, beleza, mobilidade e bem-estar em uma seleção com compra online segura.">
+  <meta property="og:image" content="https://app.seuarmazemdrop.com.br/uploads/1752846461-5.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SELECT STORE | Tecnologia, beleza e bem-estar">
+  <meta name="twitter:description" content="Uma seleção objetiva de produtos úteis para o dia a dia.">
+  <meta name="twitter:image" content="https://app.seuarmazemdrop.com.br/uploads/1752846461-5.png">
+  <link rel="preconnect" href="https://app.seuarmazemdrop.com.br" crossorigin>
+  <link rel="preconnect" href="https://pay.kaiross.com.br" crossorigin>
+  <link rel="preload" as="image" href="https://app.seuarmazemdrop.com.br/uploads/1752846461-5.png" fetchpriority="high">
+
+  <style>
+    :root{
+      --page:#f6f6f3;
+      --surface:#ffffff;
+      --surface-2:#f0f0ed;
+      --ink:#15161a;
+      --ink-soft:#34363d;
+      --muted:#6d7078;
+      --line:#dedfd9;
+      --line-dark:#c9cbc4;
+      --accent:#5b50d6;
+      --accent-dark:#463cb4;
+      --accent-soft:#efedff;
+      --signal:#d7ff3f;
+      --dark:#17181c;
+      --white:#ffffff;
+      --max:1240px;
+      --radius-sm:6px;
+      --radius-md:12px;
+      --radius-lg:18px;
+      --ease:cubic-bezier(.2,.7,.2,1);
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:var(--page);
+      color:var(--ink);
+      font-family:Inter,"SF Pro Text","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+      line-height:1.5;
+      letter-spacing:-.005em;
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+    }
+    img{display:block;max-width:100%}
+    a{color:inherit;text-decoration:none}
+    button,a{-webkit-tap-highlight-color:transparent}
+    .container{width:min(calc(100% - 48px),var(--max));margin-inline:auto}
+    .topline{display:none}
+
+    a:focus-visible,summary:focus-visible{
+      outline:2px solid var(--accent);
+      outline-offset:4px;
+      border-radius:4px;
+    }
+
+    /* HEADER */
+    header{
+      position:sticky;
+      top:0;
+      z-index:80;
+      background:rgba(246,246,243,.94);
+      backdrop-filter:blur(14px);
+      border-bottom:1px solid rgba(21,22,26,.08);
+    }
+    nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+    .brand{display:flex;align-items:center;gap:12px;font-size:14px;font-weight:760;letter-spacing:.16em}
+    .brand-mark{position:relative;width:28px;height:28px;flex:0 0 28px}
+    .brand-mark:before,.brand-mark:after{content:"";position:absolute;left:13px;top:2px;width:2px;height:24px;background:var(--ink);transform-origin:center}
+    .brand-mark:before{transform:rotate(45deg)}
+    .brand-mark:after{transform:rotate(-45deg)}
+    .brand-mark i:before,.brand-mark i:after{content:"";position:absolute;left:13px;top:8px;width:2px;height:12px;background:var(--page);z-index:2}
+    .brand-mark i:before{transform:rotate(45deg)}
+    .brand-mark i:after{transform:rotate(-45deg)}
+    .navlinks{display:flex;gap:32px;font-size:13px;font-weight:560;color:var(--ink-soft)}
+    .navlinks a{position:relative;padding:7px 0;transition:color .2s ease}
+    .navlinks a:hover{color:var(--ink)}
+    .navlinks a:after{content:"";position:absolute;left:0;bottom:2px;width:100%;height:1px;background:var(--ink);transform:scaleX(0);transform-origin:left;transition:transform .22s var(--ease)}
+    .navlinks a:hover:after{transform:scaleX(1)}
+    .nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;cursor:pointer;font-weight:680;letter-spacing:0;transition:background-color .2s ease,border-color .2s ease,color .2s ease,transform .2s var(--ease)}
+    .nav-cta{background:var(--dark);color:#fff;border:1px solid var(--dark);padding:11px 12px 11px 16px;border-radius:var(--radius-sm);font-size:12px}
+    .nav-cta:hover{background:#26272d;border-color:#26272d}
+    .arrow-box{width:26px;height:26px;display:grid;place-items:center;background:var(--signal);color:#111;border-radius:4px;font-size:16px;line-height:1}
+
+    /* HERO */
+    .hero{padding:42px 0 20px}
+    .hero-shell{
+      position:relative;
+      min-height:540px;
+      display:grid;
+      grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);
+      align-items:center;
+      gap:56px;
+      padding:56px;
+      background:var(--surface);
+      border:1px solid var(--line);
+      border-radius:var(--radius-lg);
+      overflow:hidden;
+    }
+    .hero-shell:before,.hero-shell:after{display:none}
+    .hero-copy{position:relative;z-index:3;max-width:520px}
+    .kicker{display:flex;align-items:center;gap:11px;color:var(--accent);font-size:11px;font-weight:720;letter-spacing:.12em;text-transform:uppercase;margin-bottom:18px}
+    .kicker:before{content:"";width:22px;height:1px;background:currentColor}
+    h1{font-size:clamp(46px,5.1vw,72px);line-height:.98;letter-spacing:-.048em;margin:0 0 24px;font-weight:710;text-transform:none}
+    h1 span{display:block;color:var(--accent)}
+    .hero-copy p{max-width:450px;color:var(--muted);font-size:16px;line-height:1.65;margin:0 0 30px}
+    .hero-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+    .btn{min-height:48px;padding:0 18px;border-radius:var(--radius-sm);font-size:12px;text-transform:none}
+    .btn-dark{background:var(--dark);color:#fff}
+    .btn-dark:hover{background:#26272d}
+    .btn-lime{background:var(--signal);color:#111;border:1px solid #cbe93c}
+    .btn-lime:hover{background:#cbed2d}
+    .btn-outline{border:1px solid var(--line-dark);background:transparent;color:var(--ink)}
+    .btn-outline:hover{border-color:var(--ink)}
+    .arrow-circle{width:28px;height:28px;border-radius:4px;display:grid;place-items:center;background:var(--dark);color:#fff;font-size:15px}
+    .btn-lime .arrow-circle{background:var(--dark);color:#fff}
+    .hero-meta{display:flex;gap:18px;margin-top:26px;flex-wrap:wrap;color:var(--muted);font-size:10px;font-weight:620;text-transform:uppercase;letter-spacing:.055em}
+    .hero-meta span{display:flex;align-items:center;gap:8px}
+    .hero-meta i{width:4px;height:4px;background:var(--accent);display:inline-block;border-radius:50%}
+
+    .hero-visual{position:relative;z-index:3;height:455px;min-width:0}
+    .hero-product{position:absolute;background:#fff;overflow:hidden;border:1px solid var(--line);border-radius:var(--radius-md)}
+    .hero-product img{width:100%;height:100%;object-fit:contain;background:#fff}
+    .hero-product.main{width:62%;height:82%;left:0;top:9%;transform:none}
+    .hero-product.p2{width:32%;height:42%;right:0;top:0;transform:none}
+    .hero-product.p3{width:32%;height:42%;right:0;bottom:0;transform:none}
+    .hero-product.p4{width:20%;height:28%;left:46%;bottom:0;transform:none;box-shadow:0 14px 30px rgba(17,18,24,.08)}
+    .hero-label{position:absolute;z-index:4;right:0;top:18px;background:rgba(255,255,255,.94);color:var(--ink);border:1px solid var(--line);padding:8px 10px;border-radius:4px;font-size:9px;font-weight:720;letter-spacing:.08em;text-transform:uppercase}
+
+    /* BENEFIT STRIP */
+    .benefit-strip{padding:0 0 42px}
+    .benefit-grid{display:grid;grid-template-columns:repeat(4,1fr);background:var(--dark);color:#fff;border-radius:var(--radius-md);overflow:hidden}
+    .benefit-item{padding:30px 28px;border-right:1px solid rgba(255,255,255,.12)}
+    .benefit-item:last-child{border-right:0}
+    .benefit-icon{width:30px;height:30px;margin-bottom:18px;color:var(--signal)}
+    .benefit-item strong{display:block;font-size:12px;text-transform:none;letter-spacing:0;margin-bottom:7px;font-weight:670}
+    .benefit-item span{display:block;color:#b8bac2;font-size:11px;line-height:1.6;max-width:200px}
+
+    /* PRODUCTS */
+    .products-section{padding:64px 0 70px}
+    .section-head{display:grid;grid-template-columns:250px minmax(0,1fr);gap:72px;align-items:end;margin-bottom:34px}
+    .section-label{font-size:12px;font-weight:720;text-transform:uppercase;line-height:1.2;letter-spacing:.08em;color:var(--accent)}
+    .section-label:after{content:"";display:block;width:32px;height:1px;background:var(--accent);margin-top:13px}
+    .section-head h2{font-size:clamp(34px,3.8vw,52px);line-height:1.02;letter-spacing:-.04em;margin:0;font-weight:690;text-transform:none;max-width:760px}
+    .section-head p{margin:14px 0 0;color:var(--muted);max-width:720px;font-size:14px;line-height:1.65}
+    .product-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+    .product-card{background:var(--surface);border:1px solid var(--line);min-width:0;transition:border-color .2s ease,transform .2s var(--ease);position:relative;border-radius:var(--radius-md);overflow:hidden}
+    .product-card:hover{border-color:#bfc0b9;transform:translateY(-2px)}
+    .product-media{aspect-ratio:1/1.02;background:var(--surface-2);overflow:hidden;position:relative}
+    .product-media img{width:100%;height:100%;object-fit:contain;transition:transform .3s var(--ease)}
+    .product-card:hover .product-media img{transform:scale(1.02)}
+    .product-tag{position:absolute;left:12px;top:12px;background:rgba(255,255,255,.92);color:var(--ink);border:1px solid rgba(21,22,26,.12);padding:5px 7px;border-radius:4px;font-size:8px;font-weight:720;letter-spacing:.075em;text-transform:uppercase}
+    .product-body{padding:18px 16px 16px}
+    .product-body h3{font-size:13px;line-height:1.35;margin:0 0 9px;min-height:52px;font-weight:680;letter-spacing:-.01em}
+    .product-desc{font-size:11px;line-height:1.55;color:var(--muted);min-height:52px;margin:0 0 16px}
+    .price-row{display:flex;align-items:flex-end;justify-content:space-between;gap:10px;border-top:1px solid var(--line);padding-top:14px}
+    .price{font-size:20px;font-weight:720;letter-spacing:-.03em}
+    .price small{display:block;font-size:8px;color:#85878d;text-transform:uppercase;letter-spacing:.07em;font-weight:650;margin-bottom:3px}
+    .mini-arrow{min-width:102px;height:32px;padding:0 10px;border-radius:4px;display:flex;align-items:center;justify-content:center;gap:7px;background:var(--signal);color:#111;font-size:9px;font-weight:760;letter-spacing:.015em;white-space:nowrap}
+    .mini-arrow b{font-size:13px;line-height:1;font-weight:720}
+    .card-link{position:absolute;inset:0;z-index:3}
+    .product-card:focus-within{outline:2px solid var(--accent);outline-offset:3px}
+
+    /* STATS */
+    .stats{padding:0 0 70px}
+    .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);background:var(--accent);color:#fff;border-radius:var(--radius-md);overflow:hidden}
+    .stat{padding:27px 28px;display:flex;align-items:center;gap:16px;border-right:1px solid rgba(255,255,255,.18)}
+    .stat:last-child{border-right:0}
+    .stat svg{width:30px;height:30px;color:var(--signal);flex:0 0 auto}
+    .stat strong{display:block;font-size:18px;line-height:1;font-weight:710}
+    .stat span{display:block;font-size:9px;color:#e4e1ff;margin-top:5px;text-transform:uppercase;letter-spacing:.06em}
+
+    /* SPOTLIGHT */
+    .spotlight{padding:0 0 78px}
+    .spotlight-grid{display:grid;grid-template-columns:.92fr 1.08fr;min-height:460px;background:var(--dark);color:#fff;border-radius:var(--radius-lg);overflow:hidden}
+    .spotlight-image{position:relative;background:#ecece8;overflow:hidden;min-height:420px}
+    .spotlight-image:before{display:none}
+    .spotlight-image img{position:absolute;width:78%;height:86%;object-fit:contain;left:11%;bottom:7%;filter:none;background:#fff;border:1px solid var(--line);border-radius:var(--radius-md)}
+    .spotlight-copy{padding:58px 60px;display:flex;flex-direction:column;justify-content:center}
+    .quote-mark{display:none}
+    .spotlight-copy h2{font-size:clamp(34px,3.7vw,52px);line-height:1.03;letter-spacing:-.04em;margin:0 0 18px;font-weight:690;text-transform:none}
+    .spotlight-copy p{color:#c4c6cd;max-width:560px;font-size:15px;line-height:1.68;margin:0 0 28px}
+    .spotlight-bullets{display:grid;grid-template-columns:1fr 1fr;gap:12px 18px;margin-bottom:30px}
+    .spotlight-bullets span{font-size:10px;text-transform:uppercase;letter-spacing:.055em;border-top:1px solid rgba(255,255,255,.14);padding-top:11px;color:#e7e7eb}
+
+    /* DETAIL BLOCKS */
+    .details-section{padding:10px 0 82px}
+    .details-head{display:grid;grid-template-columns:.9fr 1.1fr;gap:84px;align-items:end;margin-bottom:36px}
+    .details-head h2{font-size:clamp(34px,3.7vw,52px);line-height:1.03;letter-spacing:-.04em;margin:0;font-weight:690;text-transform:none}
+    .details-head p{margin:0;color:var(--muted);font-size:14px;line-height:1.65;max-width:610px}
+    .details-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line-dark);border-bottom:1px solid var(--line-dark)}
+    .detail{background:transparent;padding:32px 28px 34px;min-height:182px;border-right:1px solid var(--line)}
+    .detail:last-child{border-right:0}
+    .detail-num{font-size:9px;font-weight:720;color:var(--accent);letter-spacing:.11em;margin-bottom:34px}
+    .detail h3{font-size:17px;margin:0 0 10px;text-transform:none;letter-spacing:-.02em;font-weight:680}
+    .detail p{font-size:12px;color:var(--muted);margin:0;line-height:1.65}
+
+    /* FAQ */
+    .faq{padding:68px 0 96px;border-top:1px solid var(--line)}
+    .faq-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:96px;align-items:start}
+    .faq h2{font-size:clamp(34px,3.7vw,52px);line-height:1.03;letter-spacing:-.04em;margin:0 0 16px;font-weight:690;text-transform:none}
+    .faq .intro{color:var(--muted);font-size:13px;line-height:1.65;max-width:390px}
+    details{border-top:1px solid var(--line-dark);padding:19px 0}
+    details:last-child{border-bottom:1px solid var(--line-dark)}
+    summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:24px;font-size:13px;font-weight:650;text-transform:none;letter-spacing:0}
+    summary::-webkit-details-marker{display:none}
+    summary:after{content:"+";font-size:20px;font-weight:400;color:var(--accent)}
+    details[open] summary:after{content:"−"}
+    details p{font-size:13px;color:var(--muted);max-width:730px;margin:12px 0 0;line-height:1.65}
+
+    /* CLOSING */
+    .closing{padding:0 0 84px}
+    .closing-box{display:grid;grid-template-columns:1fr auto;align-items:center;gap:36px;background:var(--dark);color:#fff;padding:42px 46px;border-radius:var(--radius-md)}
+    .closing-box h2{margin:0;font-size:clamp(30px,3.6vw,46px);line-height:1.03;letter-spacing:-.04em;font-weight:680;text-transform:none}
+    .closing-box p{margin:11px 0 0;color:#bdbfc6;font-size:13px;line-height:1.6;max-width:650px}
+
+    footer{border-top:1px solid var(--line);padding:30px 0 94px;color:#74767d;font-size:10px}
+    .footer-row{display:flex;align-items:center;justify-content:space-between;gap:25px;flex-wrap:wrap}
+    .mobile-sticky{display:none}
+
+    @media (max-width:1080px){
+      .hero-shell{grid-template-columns:1fr 1fr;padding:44px;gap:38px}
+      .product-grid{grid-template-columns:repeat(3,1fr)}
+      .benefit-grid,.stats-grid{grid-template-columns:1fr 1fr}
+      .benefit-item:nth-child(2),.stat:nth-child(2){border-right:0}
+      .benefit-item:nth-child(-n+2),.stat:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.14)}
+    }
+
+    @media (max-width:820px){
+      .container{width:min(calc(100% - 32px),var(--max))}
+      .navlinks{display:none}
+      .hero{padding-top:26px}
+      .hero-shell{grid-template-columns:1fr;padding:38px 30px;min-height:auto;gap:34px}
+      .hero-copy{max-width:640px}
+      .hero-visual{height:420px}
+      .section-head,.details-head,.faq-grid{grid-template-columns:1fr;gap:24px}
+      .section-head{align-items:start}
+      .product-grid{grid-template-columns:1fr 1fr}
+      .spotlight-grid{grid-template-columns:1fr}
+      .spotlight-image{min-height:390px}
+      .spotlight-copy{padding:46px 34px}
+      .details-grid{grid-template-columns:1fr}
+      .detail{border-right:0;border-bottom:1px solid var(--line)}
+      .detail:last-child{border-bottom:0}
+      .closing-box{grid-template-columns:1fr}
+    }
+
+    @media (max-width:560px){
+      .container{width:min(calc(100% - 22px),var(--max))}
+      nav{height:66px}
+      .brand{font-size:11px;letter-spacing:.12em}
+      .brand-mark{transform:scale(.9)}
+      .nav-cta{font-size:10px;padding:9px 9px 9px 12px}
+      .arrow-box{width:23px;height:23px}
+      .hero{padding-top:16px}
+      .hero-shell{padding:30px 20px 22px;border-radius:12px}
+      h1{font-size:43px;line-height:1.01}
+      .hero-copy p{font-size:14px;line-height:1.6}
+      .hero-actions{display:grid;grid-template-columns:1fr;width:100%}
+      .hero-actions .btn{width:100%}
+      .hero-meta{gap:12px 16px}
+      .hero-visual{height:322px}
+      .hero-product.main{width:61%;height:78%;left:0;top:10%}
+      .hero-product.p2{width:35%;height:42%;right:0;top:0}
+      .hero-product.p3{width:35%;height:42%;right:0;bottom:0}
+      .hero-product.p4{width:22%;height:28%;left:43%;bottom:0}
+      .hero-label{right:0;top:8px;font-size:7px;padding:6px 7px}
+      .benefit-grid,.stats-grid{grid-template-columns:1fr}
+      .benefit-item,.stat{border-right:0!important;border-bottom:1px solid rgba(255,255,255,.14)!important}
+      .benefit-item:last-child,.stat:last-child{border-bottom:0!important}
+      .products-section{padding-top:54px}
+      .product-grid{grid-template-columns:1fr}
+      .product-media{aspect-ratio:1.22/1}
+      .product-body h3,.product-desc{min-height:auto}
+      .spotlight-image{min-height:320px}
+      .spotlight-copy{padding:36px 24px}
+      .spotlight-bullets{grid-template-columns:1fr}
+      .closing-box{padding:32px 24px}
+      footer{padding-bottom:90px}
+      .mobile-sticky{display:block;position:fixed;left:10px;right:10px;bottom:10px;z-index:100;background:rgba(23,24,28,.94);backdrop-filter:blur(12px);padding:7px;border:1px solid rgba(255,255,255,.08);border-radius:9px;box-shadow:0 12px 28px rgba(0,0,0,.16)}
+      .mobile-sticky .btn{width:100%}
+    }
+
+
+    /* RESPONSIVE SPACING REFINEMENT — preserva estrutura e conteúdo */
+    @media (min-width:1081px){
+      .hero{padding:32px 0 24px}
+      .hero-shell{min-height:500px;gap:40px;padding:44px 48px}
+      .hero-copy{max-width:500px}
+      .kicker{margin-bottom:16px}
+      h1{margin-bottom:20px}
+      .hero-copy p{margin-bottom:24px}
+      .hero-meta{margin-top:22px}
+      .hero-visual{height:420px}
+      .benefit-strip{padding-bottom:48px}
+      .products-section{padding:56px 0 64px}
+      .section-head{gap:56px;margin-bottom:28px}
+      .stats{padding-bottom:64px}
+      .spotlight{padding-bottom:72px}
+      .details-section{padding-bottom:74px}
+      .details-head{gap:64px;margin-bottom:32px}
+      .faq{padding:64px 0 84px}
+      .faq-grid{gap:76px}
+      .closing{padding-bottom:72px}
+    }
+
+    @media (min-width:821px) and (max-width:1080px){
+      .container{width:min(calc(100% - 40px),var(--max))}
+      nav{height:72px;gap:20px}
+      .navlinks{gap:24px}
+      .hero{padding:28px 0 20px}
+      .hero-shell{min-height:470px;padding:36px;gap:30px}
+      .hero-copy{max-width:470px}
+      .kicker{margin-bottom:15px}
+      h1{font-size:clamp(44px,5.8vw,60px);margin-bottom:20px}
+      .hero-copy p{font-size:15px;line-height:1.6;margin-bottom:24px}
+      .hero-meta{margin-top:20px;gap:14px}
+      .hero-visual{height:390px}
+      .benefit-strip{padding-bottom:40px}
+      .benefit-item{padding:26px 24px}
+      .products-section{padding:52px 0 60px}
+      .section-head{grid-template-columns:210px minmax(0,1fr);gap:40px;margin-bottom:28px}
+      .product-grid{gap:16px}
+      .stats{padding-bottom:58px}
+      .stat{padding:24px}
+      .spotlight{padding-bottom:64px}
+      .spotlight-copy{padding:44px 40px}
+      .details-section{padding-bottom:66px}
+      .details-head{gap:48px;margin-bottom:30px}
+      .faq{padding:60px 0 78px}
+      .faq-grid{gap:58px}
+      .closing{padding-bottom:68px}
+      .closing-box{padding:38px 40px}
+    }
+
+    @media (min-width:561px) and (max-width:820px){
+      .container{width:min(calc(100% - 36px),var(--max))}
+      nav{height:70px}
+      .hero{padding:22px 0 18px}
+      .hero-shell{padding:34px 28px 28px;gap:28px}
+      .kicker{margin-bottom:14px}
+      h1{font-size:clamp(46px,8vw,58px);margin-bottom:18px}
+      .hero-copy p{font-size:15px;line-height:1.6;margin-bottom:22px}
+      .hero-meta{margin-top:18px;gap:12px 16px}
+      .hero-visual{height:372px}
+      .benefit-strip{padding-bottom:38px}
+      .benefit-item{padding:25px 22px}
+      .products-section{padding:48px 0 56px}
+      .section-head,.details-head,.faq-grid{gap:20px}
+      .section-head{margin-bottom:26px}
+      .product-grid{gap:16px}
+      .stats{padding-bottom:54px}
+      .stat{padding:22px}
+      .spotlight{padding-bottom:58px}
+      .spotlight-image{min-height:360px}
+      .spotlight-copy{padding:38px 30px}
+      .details-section{padding-bottom:60px}
+      .details-head{margin-bottom:28px}
+      .detail{padding:28px 24px 30px;min-height:auto}
+      .detail-num{margin-bottom:24px}
+      .faq{padding:54px 0 72px}
+      .closing{padding-bottom:64px}
+      .closing-box{gap:28px;padding:34px 30px}
+    }
+
+    @media (max-width:560px){
+      .container{width:min(calc(100% - 24px),var(--max))}
+      nav{height:64px;gap:12px}
+      .brand{gap:9px}
+      .nav-cta{padding:8px 8px 8px 11px}
+      .hero{padding:14px 0 16px}
+      .hero-shell{padding:26px 18px 20px;gap:24px}
+      .kicker{margin-bottom:13px;font-size:10px;gap:9px}
+      .kicker:before{width:18px}
+      h1{font-size:clamp(36px,11.2vw,43px);line-height:1.01;margin-bottom:16px}
+      .hero-copy p{font-size:14px;line-height:1.58;margin-bottom:20px}
+      .hero-actions{gap:10px}
+      .btn{min-height:46px;padding-inline:16px}
+      .hero-meta{margin-top:17px;gap:10px 14px;line-height:1.35}
+      .hero-visual{height:300px}
+      .benefit-strip{padding-bottom:34px}
+      .benefit-item{padding:24px 20px}
+      .benefit-icon{margin-bottom:14px}
+      .products-section{padding:44px 0 52px}
+      .section-head{gap:16px;margin-bottom:24px}
+      .section-head h2{font-size:clamp(32px,10vw,42px)}
+      .section-head p{margin-top:10px}
+      .product-grid{gap:16px}
+      .product-body{padding:16px 15px 15px}
+      .product-desc{margin-bottom:14px}
+      .price-row{padding-top:12px;align-items:center}
+      .mini-arrow{min-width:98px}
+      .stats{padding-bottom:50px}
+      .stat{padding:21px 20px}
+      .spotlight{padding-bottom:54px}
+      .spotlight-image{min-height:300px}
+      .spotlight-copy{padding:30px 20px}
+      .spotlight-copy p{margin-bottom:22px}
+      .spotlight-bullets{gap:10px;margin-bottom:24px}
+      .details-section{padding:4px 0 56px}
+      .details-head{gap:16px;margin-bottom:24px}
+      .details-head h2{font-size:clamp(32px,10vw,42px)}
+      .detail{padding:26px 20px 28px;min-height:auto}
+      .detail-num{margin-bottom:22px}
+      .faq{padding:50px 0 68px}
+      .faq-grid{gap:24px}
+      .faq h2{font-size:clamp(32px,10vw,42px)}
+      details{padding:17px 0}
+      summary{gap:16px}
+      .closing{padding-bottom:66px}
+      .closing-box{gap:24px;padding:28px 20px}
+      footer{padding-top:26px}
+    }
+
+    @media (prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      *,*:before,*:after{transition:none!important;animation:none!important}
+    }
+  </style>
+
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "name":"Produtos selecionados em tecnologia, beleza e bem-estar",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Mini Projetor Portátil Wi-Fi Bluetooth HD-4K Bivolt Cinema em Casa - BM-F1012","image":"https://app.seuarmazemdrop.com.br/uploads/1752846461-5.png","description":"Mini projetor portátil com Wi-Fi e Bluetooth para entretenimento em casa.","offers":{"@type":"Offer","priceCurrency":"BRL","price":"297.90","availability":"https://schema.org/InStock","url":"https://pay.kaiross.com.br/gni9tMMl9jdq"}}},
+      {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Mini Calibrador Compressor Elétrico Digital Portátil AJ-S03","image":"https://app.seuarmazemdrop.com.br/uploads/1730482837-4.png","description":"Compressor e calibrador digital portátil para carro, bicicleta e uso diário.","offers":{"@type":"Offer","priceCurrency":"BRL","price":"169.90","availability":"https://schema.org/InStock","url":"https://pay.kaiross.com.br/s4DbuMLwa8cX"}}},
+      {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Massageador Elétrico Pescoço e Ombro Portátil MO-FH670","image":"https://app.seuarmazemdrop.com.br/uploads/1782404154-5.png","description":"Massageador elétrico portátil para momentos de conforto e relaxamento.","offers":{"@type":"Offer","priceCurrency":"BRL","price":"190.00","availability":"https://schema.org/InStock","url":"https://pay.kaiross.com.br/CjMlpjbrIlNz"}}},
+      {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Modelador de Cachos Profissional Bivolt - Cores Sortidas","image":"https://app.seuarmazemdrop.com.br/uploads/1765912345-5.png","description":"Modelador de cachos bivolt para criar penteados com praticidade.","offers":{"@type":"Offer","priceCurrency":"BRL","price":"109.90","availability":"https://schema.org/InStock","url":"https://pay.kaiross.com.br/3Mmhl5jgskRh"}}},
+      {"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Depilador Elétrico Removedor de Pelos Bivolt Roxo e Branco","image":"https://app.seuarmazemdrop.com.br/uploads/1726167449-3.jpg","description":"Depilador elétrico bivolt para facilitar os cuidados pessoais em casa.","offers":{"@type":"Offer","priceCurrency":"BRL","price":"89.90","availability":"https://schema.org/InStock","url":"https://pay.kaiross.com.br/f6zgWc9XbtLM"}}}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"Como funciona o pagamento?","acceptedAnswer":{"@type":"Answer","text":"O pagamento é concluído no checkout seguro da Kaiross, com as opções exibidas na etapa final da compra."}},
+      {"@type":"Question","name":"A entrega é feita para todo o Brasil?","acceptedAnswer":{"@type":"Answer","text":"Sim. O prazo e o valor do frete são calculados no checkout após informar o CEP."}},
+      {"@type":"Question","name":"Os produtos possuem garantia?","acceptedAnswer":{"@type":"Answer","text":"Os checkouts informam garantia de 7 dias após o recebimento, conforme as condições exibidas no momento da compra."}},
+      {"@type":"Question","name":"Qual valor será cobrado?","acceptedAnswer":{"@type":"Answer","text":"A landing page exibe os mesmos valores configurados nos checkouts indicados. Caso o checkout seja atualizado posteriormente, prevalece o valor exibido nele no momento da compra."}}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="topline"></div>
+  <header>
+    <nav class="container" aria-label="Navegação principal">
+      <a class="brand" href="#top" aria-label="SELECT STORE - início">
+        <span class="brand-mark" aria-hidden="true"><i></i></span>
+        <span>SELECT STORE</span>
+      </a>
+      <div class="navlinks">
+        <a href="#produtos">Produtos</a>
+        <a href="#destaque">Destaque</a>
+        <a href="#beneficios">Segurança</a>
+        <a href="#duvidas">Suporte</a>
+      </div>
+      <a class="nav-cta" href="#produtos">COMPRAR AGORA <span class="arrow-box">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Apresentação da loja">
+      <div class="container hero-shell">
+        <div class="hero-copy">
+          <div class="kicker">Seleção inteligente para o dia a dia</div>
+          <h1>Produtos que <span>fazem sentido.</span></h1>
+          <p>Tecnologia, mobilidade, beleza e bem-estar em uma curadoria objetiva para quem prefere comprar produtos úteis, com preço claro e checkout seguro.</p>
+          <div class="hero-actions">
+            <a class="btn btn-lime" href="#produtos">Comprar agora <span class="arrow-circle">→</span></a>
+            <a class="btn btn-outline checkout-link" data-product="projetor_hero" href="https://pay.kaiross.com.br/gni9tMMl9jdq" target="_blank" rel="noopener sponsored">Comprar Mini Projetor</a>
+          </div>
+          <div class="hero-meta">
+            <span><i></i> Compra segura</span>
+            <span><i></i> Entrega nacional</span>
+            <span><i></i> 7 dias de garantia*</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Seleção de produtos">
+          <div class="hero-label">Seleção em destaque</div>
+          <div class="hero-product main"><img src="https://app.seuarmazemdrop.com.br/uploads/1752846461-5.png" alt="Mini Projetor Portátil Wi-Fi Bluetooth" width="1000" height="1000" fetchpriority="high"></div>
+          <div class="hero-product p2"><img src="https://app.seuarmazemdrop.com.br/uploads/1730482837-4.png" alt="Mini Calibrador Compressor Elétrico" width="1000" height="1000" fetchpriority="high"></div>
+          <div class="hero-product p3"><img src="https://app.seuarmazemdrop.com.br/uploads/1782404154-5.png" alt="Massageador Elétrico Pescoço e Ombro" width="1000" height="1000"></div>
+          <div class="hero-product p4"><img src="https://app.seuarmazemdrop.com.br/uploads/1726167449-3.jpg" alt="Depilador Elétrico" width="1000" height="1000"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefit-strip" id="beneficios" aria-label="Benefícios da compra">
+      <div class="container benefit-grid">
+        <article class="benefit-item">
+          <svg class="benefit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7l8-4 8 4-8 4-8-4Z"/><path d="M4 7v10l8 4 8-4V7"/><path d="M12 11v10"/></svg>
+          <strong>Produtos selecionados</strong><span>Uma vitrine curta, direta e sem excesso de opções.</span>
+        </article>
+        <article class="benefit-item">
+          <svg class="benefit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg>
+          <strong>Compra objetiva</strong><span>Escolha o produto e avance diretamente para o checkout.</span>
+        </article>
+        <article class="benefit-item">
+          <svg class="benefit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12a8 8 0 0 1 16 0"/><path d="M6 12v5H4a2 2 0 0 1-2-2v-1a2 2 0 0 1 2-2h2Zm12 0v5h2a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2h-2Z"/><path d="M18 19c-1 1-2 1-4 1"/></svg>
+          <strong>Suporte no checkout</strong><span>Pagamento e dados do pedido em ambiente processado pela Kaiross.</span>
+        </article>
+        <article class="benefit-item">
+          <svg class="benefit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+          <strong>Pagamento protegido</strong><span>Transações informadas como seguras e criptografadas no checkout.</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="products-section" id="produtos">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">Explore nossa seleção</div>
+          <div>
+            <h2>5 escolhas para simplificar a sua rotina.</h2>
+            <p>Escolha o produto ideal e clique em Comprar agora para seguir direto ao checkout seguro. Os preços permanecem exatamente conforme os checkouts informados.</p>
+          </div>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-media"><span class="product-tag">Tecnologia</span><img loading="lazy" src="https://app.seuarmazemdrop.com.br/uploads/1752846461-5.png" alt="Mini Projetor Portátil Wi-Fi Bluetooth HD-4K BM-F1012" width="1000" height="1000"></div>
+            <div class="product-body"><h3>Mini Projetor Portátil Wi-Fi + Bluetooth</h3><p class="product-desc">Uma tela maior para filmes, séries e vídeos sem ocupar espaço na sua sala.</p><div class="price-row"><div class="price"><small>Compre agora por</small>R$ 297,90</div><span class="mini-arrow">Comprar agora <b>→</b></span></div></div>
+            <a class="card-link checkout-link" data-product="projetor" href="https://pay.kaiross.com.br/gni9tMMl9jdq" target="_blank" rel="noopener sponsored" aria-label="Comprar Mini Projetor por R$ 297,90"></a>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media"><span class="product-tag">Mobilidade</span><img loading="lazy" src="https://app.seuarmazemdrop.com.br/uploads/1730482837-4.png" alt="Mini Calibrador Compressor Elétrico Digital Portátil AJ-S03" width="1000" height="1000"></div>
+            <div class="product-body"><h3>Mini Calibrador Compressor Digital</h3><p class="product-desc">Compacto para carro e bike, com display digital e acessórios de bico.</p><div class="price-row"><div class="price"><small>Compre agora por</small>R$ 169,90</div><span class="mini-arrow">Comprar agora <b>→</b></span></div></div>
+            <a class="card-link checkout-link" data-product="calibrador" href="https://pay.kaiross.com.br/s4DbuMLwa8cX" target="_blank" rel="noopener sponsored" aria-label="Comprar Mini Calibrador por R$ 169,90"></a>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media"><span class="product-tag">Bem-estar</span><img loading="lazy" src="https://app.seuarmazemdrop.com.br/uploads/1782404154-5.png" alt="Massageador Elétrico Pescoço e Ombro MO-FH670" width="1000" height="1000"></div>
+            <div class="product-body"><h3>Massageador Elétrico Pescoço e Ombro</h3><p class="product-desc">Uma pausa de conforto para complementar seus momentos de relaxamento.</p><div class="price-row"><div class="price"><small>Compre agora por</small>R$ 190,00</div><span class="mini-arrow">Comprar agora <b>→</b></span></div></div>
+            <a class="card-link checkout-link" data-product="massageador" href="https://pay.kaiross.com.br/CjMlpjbrIlNz" target="_blank" rel="noopener sponsored" aria-label="Comprar Massageador por R$ 190,00"></a>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media"><span class="product-tag">Beleza</span><img loading="lazy" src="https://app.seuarmazemdrop.com.br/uploads/1765912345-5.png" alt="Modelador de Cachos Profissional Bivolt Cores Sortidas" width="1000" height="1000"></div>
+            <div class="product-body"><h3>Modelador de Cachos Profissional Bivolt</h3><p class="product-desc">Praticidade para criar cachos e variar o visual sem sair de casa.</p><div class="price-row"><div class="price"><small>Compre agora por</small>R$ 109,90</div><span class="mini-arrow">Comprar agora <b>→</b></span></div></div>
+            <a class="card-link checkout-link" data-product="modelador" href="https://pay.kaiross.com.br/3Mmhl5jgskRh" target="_blank" rel="noopener sponsored" aria-label="Comprar Modelador de Cachos por R$ 109,90"></a>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media"><span class="product-tag">Cuidados</span><img loading="lazy" src="https://app.seuarmazemdrop.com.br/uploads/1726167449-3.jpg" alt="Depilador Elétrico Removedor de Pelos Bivolt Roxo e Branco" width="1000" height="1000"></div>
+            <div class="product-body"><h3>Depilador Elétrico Removedor de Pelos</h3><p class="product-desc">Compacto, bivolt e pensado para simplificar os cuidados pessoais.</p><div class="price-row"><div class="price"><small>Compre agora por</small>R$ 89,90</div><span class="mini-arrow">Comprar agora <b>→</b></span></div></div>
+            <a class="card-link checkout-link" data-product="depilador" href="https://pay.kaiross.com.br/f6zgWc9XbtLM" target="_blank" rel="noopener sponsored" aria-label="Comprar Depilador por R$ 89,90"></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Informações de compra">
+      <div class="container stats-grid">
+        <div class="stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7l8-4 8 4-8 4-8-4Z"/><path d="M4 7v10l8 4 8-4V7"/></svg><div><strong>5</strong><span>Produtos selecionados</span></div></div>
+        <div class="stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 5h18v14H3z"/><path d="M3 10h18"/></svg><div><strong>100%</strong><span>Checkout online</span></div></div>
+        <div class="stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 7h-7V2"/><path d="M4 17h7v5"/><path d="M20 7a8 8 0 0 0-14.9 3M4 17a8 8 0 0 0 14.9-3"/></svg><div><strong>Brasil</strong><span>Entrega nacional</span></div></div>
+        <div class="stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg><div><strong>7 dias</strong><span>Garantia informada*</span></div></div>
+      </div>
+    </section>
+
+    <section class="spotlight" id="destaque">
+      <div class="container spotlight-grid">
+        <div class="spotlight-image"><img loading="lazy" src="https://app.seuarmazemdrop.com.br/uploads/1752846461-5.png" alt="Mini Projetor Portátil em destaque" width="1000" height="1000"></div>
+        <div class="spotlight-copy">
+          <div class="quote-mark">“</div>
+          <h2>Seu entretenimento em outra escala.</h2>
+          <p>O Mini Projetor é a peça central da seleção: um produto compacto para transformar uma parede livre em uma experiência muito maior para filmes, séries, desenhos e vídeos.</p>
+          <div class="spotlight-bullets"><span>Wi-Fi + Bluetooth</span><span>Formato compacto</span><span>Controle remoto</span><span>Bivolt</span></div>
+          <div><a class="btn btn-lime checkout-link" data-product="projetor_destaque" href="https://pay.kaiross.com.br/gni9tMMl9jdq" target="_blank" rel="noopener sponsored">Comprar agora • R$ 297,90 <span class="arrow-circle">→</span></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="details-section">
+      <div class="container">
+        <div class="details-head">
+          <h2>Uma compra simples, do início ao fim.</h2>
+          <p>A landing page foi estruturada para reduzir distrações: você conhece o produto, vê o valor e segue para o checkout correspondente. As condições de frete, disponibilidade e pagamento são confirmadas na etapa final.</p>
+        </div>
+        <div class="details-grid">
+          <article class="detail"><div class="detail-num">01 / ESCOLHA</div><h3>Compare com clareza</h3><p>Imagens reais dos produtos, descrições diretas e preço visível antes de iniciar o pagamento.</p></article>
+          <article class="detail"><div class="detail-num">02 / CHECKOUT</div><h3>Finalize em ambiente seguro</h3><p>Os botões direcionam para os checkouts Kaiross específicos de cada produto, com pagamento criptografado.</p></article>
+          <article class="detail"><div class="detail-num">03 / ENTREGA</div><h3>Consulte seu CEP</h3><p>O prazo e o valor do frete são exibidos no checkout após o preenchimento do endereço de entrega.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="duvidas">
+      <div class="container faq-grid">
+        <div>
+          <div class="kicker">Perguntas frequentes</div>
+          <h2>O essencial antes de comprar.</h2>
+          <p class="intro">Os valores exibidos aqui correspondem aos checkouts enviados. Frete, estoque e condições finais são confirmados na etapa de pagamento.</p>
+        </div>
+        <div>
+          <details open><summary>Como funciona o pagamento?</summary><p>Ao clicar em um produto, você será direcionado ao checkout seguro da Kaiross. Lá são exibidas as formas de pagamento disponíveis para concluir o pedido.</p></details>
+          <details><summary>Vocês entregam para todo o Brasil?</summary><p>Os checkouts informam entrega para todo o Brasil. O prazo e o valor do frete aparecem após informar o CEP.</p></details>
+          <details><summary>Existe garantia?</summary><p>Os checkouts informam garantia de 7 dias após o recebimento, conforme as condições apresentadas no momento da compra.</p></details>
+          <details><summary>Por que o valor pode ser diferente de outras vitrines?</summary><p>Esta é uma operação de revenda. Os preços apresentados nesta landing page foram mantidos exatamente conforme os checkouts indicados para esta operação comercial.</p></details>
+          <details><summary>O preço pode ser atualizado?</summary><p>Os valores desta página refletem os checkouts informados na criação da oferta. Caso a condição seja alterada posteriormente, prevalece o valor mostrado no checkout no momento da compra.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="container closing-box">
+        <div><h2>Escolha o seu e compre agora.</h2><p>Preço claro, compra objetiva e acesso direto ao checkout seguro de cada produto. Escolha seu item e finalize em poucos passos.</p></div>
+        <a class="btn btn-lime" href="#produtos">Comprar agora <span class="arrow-circle">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <span>© <span id="year"></span> SELECT STORE. Todos os direitos reservados.</span>
+      <span>*Garantia, estoque, frete e condições finais conforme informações exibidas nos respectivos checkouts Kaiross.</span>
+    </div>
+  </footer>
+
+  <div class="mobile-sticky" aria-label="Atalho para produtos"><a class="btn btn-lime" href="#produtos">Comprar agora <span class="arrow-circle">→</span></a></div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Preserva UTMs e IDs de mídia ao encaminhar para o checkout.
+    const passthroughKeys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid'];
+    const current = new URLSearchParams(location.search);
+    document.querySelectorAll('a.checkout-link').forEach(link => {
+      const url = new URL(link.href);
+      passthroughKeys.forEach(key => { if (current.get(key)) url.searchParams.set(key, current.get(key)); });
+      link.href = url.toString();
+      link.addEventListener('click', () => {
+        const product = link.dataset.product || 'produto';
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({event:'select_product_checkout', product_name:product, destination:'kaiross'});
+        if (typeof window.fbq === 'function') window.fbq('trackCustom','SelectProductCheckout',{product_name:product});
+      });
+    });
+  </script>
+</body>
+</html>
